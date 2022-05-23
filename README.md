@@ -2,7 +2,7 @@
 
 This repository contains the code responsible for scraping from the Supreme Court website
 
-# Schedule https://www.supremecourt.gov/oral_arguments/2022TermCourtCalendar.pdf
+## Schedule https://www.supremecourt.gov/oral_arguments/2022TermCourtCalendar.pdf
 
 - Court calendar
 - Day Call 
