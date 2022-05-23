@@ -2,7 +2,8 @@
 
 This repository contains the code responsible for scraping from the Supreme Court website
 
-## Schedule https://www.supremecourt.gov/oral_arguments/2022TermCourtCalendar.pdf
+## Schedule 
+https://www.supremecourt.gov/oral_arguments/2022TermCourtCalendar.pdf
 
 - Court calendar
 - Day Call 
@@ -10,12 +11,18 @@ This repository contains the code responsible for scraping from the Supreme Cour
 - Opinions of the court
 - Case documents
 
+# Setup
+
+```pip3 install -r requirements.txt```
 
 # Scrape argument audio and transcripts (2010 - present)
-Update recent arguments - python3 scrapers/arguments.py 
-Find arguments for specific year - python3 scrapers/arguments.py 2019
-
 
 outputs to data/ directory
 
+```python3 scrapers/arguments.py``` - Scrape arguments for the current session
+```python3 scrapers/arguments.py 2019``` - Scrape arguments from a specific year 
+
+
 # Scrape archived argument transcripts
+
+Coming Soon
