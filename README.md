@@ -19,8 +19,9 @@ https://www.supremecourt.gov/oral_arguments/2022TermCourtCalendar.pdf
 
 outputs to data/ directory
 
-```python3 scrapers/arguments.py``` - Scrape arguments for the current session
-```python3 scrapers/arguments.py 2019``` - Scrape arguments from a specific year 
+Scrape arguments for the current session ```python3 scrapers/arguments.py```
+
+Scrape arguments from a specific year ```python3 scrapers/arguments.py 2019```
 
 
 # Scrape archived argument transcripts
