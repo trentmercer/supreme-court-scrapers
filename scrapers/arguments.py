@@ -40,7 +40,7 @@ for a in soup.find_all('a'):
                     if '.mp3' in path:
                         audio_url = path  
                     if 'argument_transcripts' in path:
-                        transcript_url = path 
+                        transcript_url = 'https://www.supremecourt.gov' + path 
 
             supreme_court_arguments.append({
                 'title': title.text, 'date': date.text, 'docket': docket.text, 
