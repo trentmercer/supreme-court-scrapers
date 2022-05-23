@@ -6,10 +6,7 @@ This repository contains the code responsible for scraping from the Supreme Cour
 https://www.supremecourt.gov/oral_arguments/2022TermCourtCalendar.pdf
 
 - Court calendar
-- Day Call 
 - Argument Audio and Transcripts
-- Opinions of the court
-- Case documents
 
 # Setup
 
@@ -27,3 +24,12 @@ Scrape arguments from a specific year ```python3 scrapers/arguments.py 2019```
 # Scrape archived argument transcripts
 
 Coming Soon
+
+- Orders of the court
+- Orders by circuit
+- Case Documents
+- Current members
+- Circuit assignments 
+- Opinions of the court
+- Online sources cited in opinions
+- Opinions relating to orders 
